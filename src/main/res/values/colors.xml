@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Kayit Ol  Activity Renkler -->
+    <color name="KayitOlTextColor">#000000</color>
+    <color name="KayitOlBtnTextColor">#FFFFFF</color>
+
+    <!--  Main Activity Renkler-->
+    <color name="BottomViewSecilenRenk">#000000</color>
+    <color name="BottomViewSecilmeyenRenk">#AAAAAA</color>
+
+    <!-- Custom Dialog Mesaj Gönder -->
+    <color name="MesajGonderCerceveRenk">#0ADFCB</color>
+    <color name="MesajGonderBtnResimRenk">#FFFFFF</color>
+    <color name="MesajGonderBtnYaziRenk">#FFFFFF</color>
+    <color name="MesajGonderTxtRenk">#000000</color>
+
+
+    <!-- Chat bg Renkler -->
+    <color name="ChatBgLeftColor">#CFCFCF</color>
+    <color name="ChatBgRightColor">#474747</color>
+    <color name="ChatBgTextColor">#FFFFFF</color>
+
+</resources>

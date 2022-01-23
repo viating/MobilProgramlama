@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.ProfilFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="HESABIM"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:textColor="#E91E63" />
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="15dp"
+       android:layout_height="wrap_content">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/profil_fragment_imgUserProfil"
+           android:layout_width="156dp"
+           android:layout_height="156dp"
+           app:civ_border_color="#000000"
+           app:civ_border_width="3dp" />
+       
+       <ImageView
+           android:layout_width="wrap_content"
+           android:src="@drawable/ic_camera"
+           android:layout_marginRight="2dp"
+           android:id="@+id/profil_fragment_imgYeniResim"
+           android:layout_marginBottom="2dp"
+           android:layout_alignRight="@+id/profil_fragment_imgUserProfil"
+           android:layout_alignBottom="@+id/profil_fragment_imgUserProfil"
+           android:layout_height="wrap_content"/>
+
+
+   </RelativeLayout>
+
+    <EditText
+        android:id="@+id/profil_fragment_editIsim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/profil_edit_bg"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/profil_fragment_editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/profil_edit_bg"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textStyle="bold" />
+
+</LinearLayout>
